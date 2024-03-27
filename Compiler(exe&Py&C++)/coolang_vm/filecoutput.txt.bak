@@ -1,0 +1,61 @@
+argc:3
+argv[1]:input.coc
+argv[2]:input.setting
+=====================????=====================
+location(:1)
+(C:\nonSystemFiles\visual_studio_projects\coolang_vm\coolang_vm_integrate.cpp:2161:COOLANG::MultiTFIntegrator::integrate)
+
+################################################################################################################################################################################################
+Error exit:COOLANG::MultiTFIntegrator::integrate:
+CodeTable:
+:
+-------------------------------------------------------------------------------------------------------------
+                                       CodeTable(input#0)                                       
+         1.1.3                          	|                                                                                                                                |	       -            _prim_-     
+
+-------------------------------------------------------------------------------------------------------------
+                                       CodeTable(test#1)                                        
+           2                   ME       	|                                                                                                                                |	       -            _prim_-     
+           3                 #line      	|               1                                                                                                                |	       -            _prim_-     
+           4                   ME       	|                                                                                                                                |	       -            _prim_-     
+           5                   C        	|         asc(_prim_-):x                       new                              :                         asc(_prim_-):x         |	       -            _prim_-     
+           6                            	|  eq(1):number:asc(_prim_-):x       eq(1):immediate:number:1                   =                  eq(1):number:asc(_prim_-):x   |	root:S_S_FUZHI(=)    _prim_-     
+           7                   ME       	|                                                                                                                                |	       -            _prim_-     
+          Du:                 Du:       	|               $x                                                              $                               $x               |	       -            _prim_-     
+           9                            	|        $asc(_prim_-):x             eq(3):immediate:number:3                   ^                        $S_Dz(test#1-9)         |	       -            _prim_-     
+           10                           	|        $asc(_prim_-):x             eq(4):immediate:number:4                   ^                        $S_Dz(test#1-10)        |	       -            _prim_-     
+           11                           	|        $S_Dz(test#1-9)                 $S_Dz(test#1-10)                       +                        $S_Dz(test#1-11)        |	       -            _prim_-     
+           12                           	|        $S_Dz(test#1-11)           eq(10):immediate:number:10                  ==                   $number:S_Dz(test#1-12)     |	       -            _prim_-     
+           13                  ME       	|                                                                                                                                |	       -            _prim_-     
+           14                           	|               x                eq("#FILE(SCREEN)"):immediate:string:"#FILE(SCREEN)"              -->                              x                |	       -            _prim_-     
+           15                  ME       	|                                                                                                                                |	       -            _prim_-     
+           16                           	|eq("finish"):immediate:string:"finish"eq("#FILE(SCREEN)"):immediate:string:"#FILE(SCREEN)"              -->               eq("finish"):immediate:string:"finish"|	       -            _prim_-     
+           17                  ME       	|                                                                                                                                |	       -            _prim_-     
+
+-------------------------------------------------------------------------------------------------------------
+
+================================================================================================================================================================================================
+groundingStateSiloMaxCapacity:1000
+siloAll:size:1
+garbageSilo:0
+GroundingState:	position:[0]	BDDB_value:0
+BDDB_o_t:0
+tffka:	-	stateMatrix:
+    knowledge domain                 matrix                   step          BDDB_o_t    
+accumulated_step  tf knowledge domain              tfInfoMat            
+
+.   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .
+
+	codeTable:
+           9                            	|        $asc(_prim_-):x             eq(3):immediate:number:3                   ^                        $S_Dz(test#1-9)         |	       -            _prim_-     
+           10                           	|        $asc(_prim_-):x             eq(4):immediate:number:4                   ^                        $S_Dz(test#1-10)        |	       -            _prim_-     
+           11                           	|        $S_Dz(test#1-9)                 $S_Dz(test#1-10)                       +                        $S_Dz(test#1-11)        |	       -            _prim_-     
+           12                           	|        $S_Dz(test#1-11)           eq(10):immediate:number:10                  ==                   $number:S_Dz(test#1-12)     |	       -            _prim_-     
+
+
+################################################################################################################################################################################################
+	ignoreCount:[0]
+
+Reasoning Failure! Total abort tasks:1
+=====================????=====================
+COOL_LIN:1;location:(:1)

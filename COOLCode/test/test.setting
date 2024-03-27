@@ -1,0 +1,12 @@
+version:COOLANG2022
+codeForm:2
+multiFile:0
+matchStateSiloMaxCapacity:5
+codeTableSiloMaxCapacity:5
+maxSwitchTurn:50
+maxBackStep:50
+debugVersion:0
+execute:0
+debugMode:0
+debugInfoOutputPath:debugInfoOutputPath.fifo
+debugOrderInputPath:debugOrderInputPath.fifo

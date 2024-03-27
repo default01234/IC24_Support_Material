@@ -1,0 +1,2 @@
+new:screen = "#FILE(SCREEN)";
+new:keyboard = "#FILE(KEYBOARD)";//目前IDE不支持运行时从键盘读入

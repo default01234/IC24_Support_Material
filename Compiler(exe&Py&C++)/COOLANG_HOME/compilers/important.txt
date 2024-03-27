@@ -1,0 +1,1 @@
+Your compilation system is missing the virtual machine component. After you have compiled the virtual machine (written in C++), it needs to be placed in this folder. Alternatively, after compiling the COOL code in this folder, you should run the generated .coc files following step 6 in the readme.

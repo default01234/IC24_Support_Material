@@ -1,0 +1,33 @@
+version:COOLANG2022
+codeForm:3
+multiFile:0
+matchStateSiloMaxCapacity:5
+codeTableSiloMaxCapacity:5
+maxSwitchTurn:50
+maxBackStep:50
+debugVersion:0
+execute:0
+debugMode:0
+debugInfoOutputPath:debugInfoOutputPath.pipe
+debugOrderInputPath:debugOrderInputPath.pipe
+baseAlgorithm:0
+userPromptEnabled:1	//enable pcp (if you want to use this setting file, please remove all these comments)
+userPromptAlgorithm:0	
+progressRewardFactor:0.2
+neuralNetworkEnabled:0	//enable domain specific network
+neuralNetworkAlgorithm:0
+train:0				//enable training after compiling
+exportTrainingData:1		
+exportSucceedTrainingDataOnly:1
+exportDuplicatedTrainingData:0
+exportPerformance:1
+cosineSimilarityThreshold:0.8
+sampleProportion:0.5
+BDDB__r_a__k_0:1
+BDDB__r_a_base:1
+BDDB__o__k_0:5
+BDDB__o__k_1:0.1
+BDDB__o__k_2:1.1
+BDDB_lambda:0.95
+BDDB__q_base:10
+CollectionCycleSerialNumber:1

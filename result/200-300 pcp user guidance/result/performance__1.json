@@ -1,0 +1,12 @@
+
+{"AST_transformation_count":1320,
+"grounding_state_count":8384,
+"grounding_time":5.16051e+08,
+"grounding_time_ref":516050760,
+"execution_time":3.96057e+06,
+"execution_time_ref":3960565,
+"neural_network_assistance_count":0,
+"ac":0,
+"ci":0,
+"reasoning_failure_times":6,
+},
